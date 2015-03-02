@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" >
 	<title>Emmie's Portfolio</title>
-<link rel="stylesheet" href="<?php echo base_url('assets/css/portfoliostyle.css'); ?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/css/portfoliostyle.css');?>" />
   <?php  $this->load->helper('form'); ?>
 </head>
 <body>
@@ -14,7 +14,7 @@
           <img alt="logo" class="logo" src="<?php echo base_url('assets/img/logo.png');?>" />
         <div id="menu">
               <ul id="header_menu">
-              <li><a onclick="hidetext()" href="#">ABOUT ME</a></li>
+              <li><a href="#">ABOUT ME</a></li>
               <li><a href="#">WORK</a></li>
               <li><a href="#">CONTACT ME</a></li>
               </ul>
