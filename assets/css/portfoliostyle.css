@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+.centre{
+    text-align:center;
+}
+li{
+    list-style-type: none;
+}
+
+#wrapper{
+	z-index:-1;
+    width: 100%;
+    background-image:url('../img/Maneesa.jpg');
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:10px -1232px;
+	}
+
+
+.text{
+	color:black;
+	font-family:"Roboto";
+	text-align:left;
+	font-size:20px;
+	}
+	
+.ordinarytext{
+	color:#fbc3e1;
+	font-size:60px;
+	font-family:"Oswald";
+    background-color:#FFF;
+    padding: 10px;
+	}
+
+.ordinarytext2{
+	color:#fbc3e1;
+	font-size:40px;
+	font-family:"Oswald";
+    background-color:#FFF;
+    padding: 10px;
+	}
+	
+.diamond{
+	border-radius: 50px;
+	width:400px;
+	height:300px; 
+	}
+
+	
+html { 
+	 width:100%;
+	 height:100%; 
+	 margin:0; 
+	 padding:0px; 
+}
+
+body {
+	 width:100%;
+	 height:100%; 
+	 margin:0; 
+	 padding:0px;
+	 
+    }
+
+    header{
+	width:100%;
+	height:100px;
+	background-color:#f3aad7;
+	z-index:200;
+	position:fixed;
+	background-color:#424242;
+	top:0px;
+	}
+
+#logo{
+	width:90px;
+	height:90px;
+    float: left;
+	}
+	
+#content_aboutme{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FCF;
+	background-color:rgba(253, 248, 253, 0.5);
+	z-index:9;
+	width:1000px;
+    padding-top: -100px;
+    position: relative;
+    top: -30px;
+    padding-top: 220px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+		
+#logotext{
+    font-family:"Oswald";
+}
+
+#menu li{
+	display:inline;
+	font-family:"Oswald";
+	font-size:22px;
+	color:#FFF;
+	margin-right:40px;
+	}
+	
+#menu{
+    width: 800px;
+    height: 100px;
+	position:relative;
+	right: -725px;
+    top: -244px;
+	}
+
+	
+a{
+	text-decoration:none;
+	color:#FFF;
+	}
+
+a:hover{
+	text-decoration:none;
+    color: #ea89bd;
+	}
+	
+
+	
+	.image_smaller{
+	width: 1000px;
+	height: 600px;
+	right: -1999px;
+	position: relative;
+	z-index: 5;
+		}
+	
+#header_menu{
+	position:relative;
+    top: 62px;
+    right: 21px;
+	}
+	
+		
+	#work_box{
+		width:900px;
+		height:400px;
+		margin-left:auto;
+		margin-right:auto;
+		}
+		
+	#workbox1{
+		height:350px;
+		width:272px;
+		float:right;
+		margin: 10px 10px 10px 10px;
+		background-color:rgba(90, 86, 90, 0.5);
+		border-radius:7px;
+		text-align:center;
+		}
+	#workbox2{
+		height:350px;
+		width:272px;
+		float:right;
+		margin: 10px 10px 10px 10px;
+		background-color:rgba(90, 86, 90, 0.5);
+		border-radius:7px;
+		text-align:center;
+
+		}
+	#workbox3{
+		height:350px;
+		width:272px;
+		float:right;
+		margin: 10px 10px 10px 10px;
+		background-color:#F5B3D0;
+		border-radius:7px;
+		text-align:center;
+		}
+		
+	.picture_size{
+		width:250px;
+		padding-top:25px
+		}
+
+    .formstyle{
+        border-radius: 5px;
+        width: 350px;
+        height: 40px;
+        border: 0;
+        margin: 10px;
+        
+        }
+    .contact{
+        width: 900px;
+        height: 150px;
+        background-color: #424242;
+        }
+
+    .contacttxt{
+        color: white;
+        font-family:"Oswald";
+        font-size: 60px;
+        position: relative;
+        left: 30px;
+        top: -147px;
+    }
+
+    .messagestyle{
+        width: 345px;
+        height: 180px;
+        border-radius: 5px;
+        border: 0;
+        padding: 5px ;
+        position: relative;
+        left: 11px;
+    
+    }
+
+    .emailstyle{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 314px;
+        top: -34px;
+    }
+    #box{
+        width: 600px;
+        height: 350px;
+        background-color: white;
+        margin: 20px;
+        opacity: 0.9;
+    }
+    #submit{
+        margin-top: 10px;
+    }
+
+    .send{
+         width:120px;
+        height:60px;
+        margin-left:35px;
+        display:block;
+        font-size:large;
+        background-color:#F5B3D0;
+        color:white;
+        border: none;
+        outline:none;
+        font-family:"Oswald";
+    }	
+    .send:hover{
+        cursor: pointer;
+        color: white;
+    }
+    #created{
+        color: white;
+        font-family:"Oswald";
+        font-size: 20px;
+    }
+    footer{
+        margin-top: -23px;
+        margin-bottom: -28px;
+        background-color: #424242;
+    }
+    footer h2{
+        color: white;
+        font-family:"Oswald";
+        font-size: small;
+        text-align: right;
+        padding: 0px;
+ 
+    }
+    .logo{
+    width: 200px;
+    height: 200px;
+    }
+  /* CHROME */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+   
+    footer{
+        background-color: #424242;
+        position: relative;
+        bottom:  -6px;
+
+    }
+     footer h2{
+        padding: 0px;
+         margin: 0px;
+         
+     }
+
+}
