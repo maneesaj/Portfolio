@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8888/CodeIgniter_2.2.0/';
+$config['base_url']	= 'http://localhost:8888/EmmiePortfolio/';
 //$config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 /*
 |--------------------------------------------------------------------------

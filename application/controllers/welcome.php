@@ -29,43 +29,49 @@ class Welcome extends CI_Controller {
         // loads view welcome page
         $this->load->view('welcome_message');
 
-        
+
        
     } 
     
      function contact(){
-         
-          $firstname = $this->input->post('fname');
-        $lastname = $this->input->post('lname');
+         echo"hello";
+        
+                         $this->load->library('email');
+
+       $firstname = $this->input->post('fname');
+    $lastname = $this->input->post('lname');
         $phone_number = $this->input->post('phone');
-        $website = $this->input->post('website');
-        $mail = $this->input->post('email');
-        $message = $this->input->post('usermessage');
+       $website = $this->input->post('website');
+       $mail = $this->input->post('email');
+       $message = $this->input->post('usermessage');
+         
         
-        $configs = array(
-        'protocol'=>'smtp',
-        'smtp_host'=>'ssl://smtp.gmail.com',
-        'smtp_user'=>'maneesajemployment@gmail.com',
-        'smtp_pass'=>"love2525",
-        'smtp_port'=>'465'
-        );
+        var_dump( $firstname, $lastname);
+
         
-        $this->load->library('email',$configs);
-        $this->email->set_newline("\r\n");
+         echo"blah";
         $this->email->to('maneesajemployment@gmail.com'); 
-        $this->email->from($email);
+        $this->email->from(set_value($mail));
         $this->email->subject('Email Test');
-        $this->email->message($message);  
+         $this->email->set_newline("\r\n");
+        $this->email->message($message); 
+         var_dump($message,$mail);
+         
+         $this->email->send();
 
         if($this->email->send()){
-                
-            echo"It want sent";
-            redirect("index.php");
+               // redirect("index.php");
+
+            $errormessage = "message has been sent"; 
+                        echo $this->email->print_debugger();
+
 
                 
         } else {
-            echo"it didnt send";
-            redirect("index.php");
+                     //   redirect("index.php");
+
+            
+            $errormessage = "it didnt send";    
  
             echo $this->email->print_debugger();
 

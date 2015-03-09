@@ -11,7 +11,7 @@
   <div id="wrapper">
 
       <header>
-          <img alt="logo" class="logo" src="<?php echo base_url('assets/img/logo.png');?>" />
+          <img alt="logo" id="thelogo" class="logo" src="<?php echo base_url('assets/img/logo.png');?>" />
         <div id="menu">
               <ul id="header_menu">
               <li><a href="#">ABOUT ME</a></li>
@@ -60,7 +60,7 @@
             
             <?php if(isset($errormessage))echo $errormessage ?>
            
-            <?php echo form_open('');?>
+            <?php echo form_open('welcome/contact');?>
             
             <ul class="text">
              <? $firstname = array(
@@ -141,4 +141,6 @@
     </footer>
 </body>
   <?php  $this->load->library('javascript'); ?>
+<script type="text/javascript" src="<?php echo base_url('assets/js/portfoliostyle.js');?>"> </script>
+
 </html>

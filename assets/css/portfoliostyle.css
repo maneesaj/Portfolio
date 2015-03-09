@@ -7,6 +7,17 @@ li{
     list-style-type: none;
 }
 
+.logo{
+    width: 200px;
+    height: 200px;
+    }
+
+.smallerlogo{
+    width: 100px;
+    height: 100px;
+
+}
+
 #wrapper{
 	z-index:-1;
     width: 100%;
@@ -268,10 +279,7 @@ a:hover{
         padding: 0px;
  
     }
-    .logo{
-    width: 200px;
-    height: 200px;
-    }
+  
   /* CHROME */
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
    
